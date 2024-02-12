@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { FiltersType } from '/src/types/todo'
+  import type { FiltersType } from '../../src/types/todo'
 
   type SetFilterType = (newFilter: string) => void
 

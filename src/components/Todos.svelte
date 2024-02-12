@@ -1,8 +1,8 @@
 <script lang="ts">
   import { tick } from 'svelte'
 
-  import type { FiltersType, ITodo } from '/src/types/todo'
-  import { useStorage } from '/src/stores/useStorage'
+  import type { FiltersType, ITodo } from '../../src/types/todo'
+  import { useStorage } from '../../src/stores/useStorage'
 
   import AddTodo from './AddTodo.svelte'
   import Todo from './Todo.svelte'
