@@ -1,6 +1,6 @@
 <script>
-  import Todos from '../src/components/Todos.svelte'
-  import '../src/styles/global.css'
+  import Todos from '$components/Todos.svelte'
+  import '$styles/global.css'
 </script>
 
 <Todos />

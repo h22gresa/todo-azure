@@ -1,6 +1,6 @@
 <script lang="ts">
   import { fade, slide } from 'svelte/transition'
-  import type { ITodo } from '../../src/types/todo'
+  import type { ITodo } from '$src/types/todo'
 
   type CompleteTodoType = (id: string) => void
   type RemoveTodoType = (id: string) => void
